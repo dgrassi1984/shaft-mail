@@ -1,0 +1,4 @@
+:root{--bg:#fff;--fg:#1d1d1f;--muted:#5f6368;--link:#1a56db}
+@media (prefers-color-scheme:dark){:root{--bg:#121212;--fg:#e8e8e8;--muted:#a0a0a0;--link:#8ab4f8}}
+body{background:var(--bg);color:var(--fg);font:16px/1.6 -apple-system,system-ui,sans-serif;max-width:680px;margin:0 auto;padding:32px 16px}
+a{color:var(--link)} p.muted{color:var(--muted);font-size:14px}
